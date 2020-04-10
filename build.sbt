@@ -1,6 +1,6 @@
 ThisBuild / name := "azure-storage-sdk-wrapper-for-scala"
 
-ThisBuild / organization := "janjaali"
+ThisBuild / organization := "com.github.janjaali"
 
 ThisBuild / version := "0.1.0-SNAPSHOT"
 
