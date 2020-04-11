@@ -69,9 +69,9 @@ ThisBuild / crossScalaVersions := supportedScalaVersions
 
 publishMavenStyle := true
 
-credentials += publishSettings.credentials
+ThisBuild / credentials += publishSettings.credentials
 
-publishTo := publishSettings.publishTo(isSnapshot.value)
+ThisBuild / publishTo := publishSettings.publishTo(isSnapshot.value)
 
 skip in publish := true
 
