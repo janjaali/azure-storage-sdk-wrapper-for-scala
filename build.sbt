@@ -93,7 +93,7 @@ lazy val lib = (project in file("lib"))
       "com.typesafe.akka" %% "akka-stream" % "2.6.4",
 
       // azure storage
-      "com.azure" % "azure-storage-blob" % "12.5.0"
+      "com.azure" % "azure-storage-blob" % "12.6.0"
     )
   )
   .dependsOn(model, scalaCheckTestLib % "test->test")
