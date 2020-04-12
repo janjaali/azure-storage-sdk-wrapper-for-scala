@@ -2,7 +2,7 @@ ThisBuild / name := "azure-storage-sdk-wrapper-for-scala"
 
 ThisBuild / organization := "com.github.janjaali"
 
-ThisBuild / version := "0.1.0-SNAPSHOT"
+ThisBuild / version := "0.1.0"
 
 ThisBuild / licenses := Seq("MIT License" -> url("https://opensource.org/licenses/MIT"))
 
